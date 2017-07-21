@@ -1,0 +1,11 @@
+git config --global user.name 'LeasureWang'
+git config --global user.email 'leasure_wang@outlook.com'
+
+cd d:text
+
+git init
+git add .
+git commit -m 'verify upload -- first try'
+git remote add origin https://github.com/LeasureWang/testGithubUpload.git      ¡¾×¢£ºpull=fetch+merge¡¿
+
+git push -u origin masterss
